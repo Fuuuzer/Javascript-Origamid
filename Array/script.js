@@ -39,4 +39,57 @@ const carros = ['Ford', 'Fiat', 'VW', 'Ferrari', 'JORGESON'];
 
 
 
-console.log(['Item1', 'Item2', 'Item3', 'Item4' , 'item5'].copyWithin(2, 0, 2));
+// console.log(['Item1', 'Item2', 'Item3', 'Item4' , 'item5'].copyWithin(2, 0, 2));
+
+
+// console.log(['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 0, 2));
+
+
+//pegar o ultimo item de uma lista transformada em array e 
+// modificar algo cutilizando alguma função
+
+
+// const transporte1 = ['Barco', 'Aviao'];
+// const transporte2 = ['Carro', 'Moto'];
+// const transportes = transporte1.concat(transporte2, 'fala', 'jorge');
+
+// const veiculos = Array('jorge', 'minecraft', 'mitomaniaco'); 
+
+// const veiculos1 = ['jorge', 'minecraft', 'cesar']
+
+// console.log(veiculos1)
+// console.log(transportes)
+
+
+const linguagens = ['html', 'css', 'js', 'php', 'python', 'js'];
+
+
+// console.log(linguagens.includes('ruby'));
+// console.log(linguagens.indexOf('ruby'));
+// console.log(linguagens.lastIndexOf('js'));
+
+// let htmlString = '<h2>Título Principal</h2>';
+// htmlString = htmlString.split('h2');
+// htmlString = htmlString.join('p');
+
+// console.log(htmlString);
+
+
+
+
+const cloneLinguagens = linguagens.slice(); // tecnica comum de clonas arrays
+
+
+
+
+console.log(linguagens.pop());
+console.log(linguagens);
+
+console.log(cloneLinguagens);
+
+
+
+
+
+
+// console.log(linguagens.slice(0, 6));
